@@ -1,0 +1,8 @@
+$("a[target][title$=')'][href]").slice(0,30).each(
+	function(){
+			console.log(this.title);
+	});
+
+wget http://basic.10jqka.com.cn/002468/xls/mainsimple.xls -O D:/FromWget/东方财富_002468.xls
+
+股票以行业_主打产品_股票代码_股票名称_净资产收益率-摊薄_净利润同比增长率_当前季度的格式保存起来
